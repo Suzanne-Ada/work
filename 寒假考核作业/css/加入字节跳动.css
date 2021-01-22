@@ -1,0 +1,989 @@
+* {
+    margin:0;
+    padding:0;
+}
+#bd {
+    width:100%;
+    height:6620px;
+    position: relative;
+    overflow: hidden;
+}
+/* 导航栏 */
+.nav {
+width:100%;
+height:64px;
+line-height: 64px;
+float:left;
+position:absolute;
+top:0px;
+z-index: 2;
+}
+.nav .logo-container {
+    height:64px;
+    float:left;
+    margin-left: 7%;
+}
+.nav .menu {
+    height:64px;
+    width:50%;
+    float:right;
+    line-height: 64px;
+    margin-right:5%;
+}
+.nav .menu ul li {
+    list-style: none;
+    height:13px;
+    line-height: 64px;
+    float:left;
+    color:#ffffff;
+    font-size:14px;
+    text-align: center;
+}
+.nav .menu ul :nth-child(1) {
+    width:14%;
+}
+.nav .menu ul :nth-child(2) {
+width:14%;
+}
+.nav .menu ul :nth-child(3) {
+    width:22%;
+}
+.nav .menu ul :nth-child(4) {
+    width:22%;
+}
+.nav .menu ul :nth-child(5) {
+    width:22%;
+    border-left: 1px solid #ffffff;
+}
+.nav .menu ul li a {
+    text-decoration: none;
+    color:#ffffff;
+}
+/* 主体内容 */
+.content {
+    width:100%;
+    height:6600px;
+}
+/* 视频背景 */
+.bg {
+    width:100%;
+    height:614px;
+}
+.vedio-container {
+    position:absolute;
+    top:0;
+    width:100%;
+    height:614px;
+}
+.fullscreenvideo {    
+    position: absolute;   
+    top: 269px; 
+    left: 50%;
+    width: auto;
+    height: 690px;     
+    -webkit-transform: translateX(-50%) translateY(-50%);   
+    transform: translateX(-50%) translateY(-50%);    
+    -webkit-transition: 1s opacity;    transition: 1s opacity;
+}
+.search {
+    position: absolute;
+    width:626.88px;
+    height:262.33px;
+    margin:20% 28%;
+    z-index: 2;
+    text-align: center;
+}
+.search .slogan {
+    width:626.88px;
+    height:91.33px;
+    margin-bottom: 60px;
+} 
+.search .slogan .title {
+    width:626.88px;
+    height:60.67px;
+    color:#ffffff;
+    font-size:54px;
+    line-height: 61px;
+    font-weight:600;
+}
+.search .slogan .subtitle {
+    width:626.88px;
+    height:16.67px;
+    color:#ffffff;
+    font-size:15px;
+    font-weight:400;
+}
+
+.search .search-content {
+    width:420px;
+    height:56px;
+    position:relative;
+    margin:auto;
+}
+.search .search-content input {
+width:420px;
+height:56px;
+border-radius: 28px;
+float: left;
+font-size:16px;
+color:gainsboro;
+outline: none;
+}
+.search .search-content button {
+    width:48px;
+    height:48px;
+    position:absolute;
+    right:0;
+    top:8px;
+    border-radius: 24px;
+    background-color: #3370ff;
+    outline: none;
+}
+/* 字节跳动产品 */
+.app {
+    width:100%;
+    height:860px;
+    background-color:#ffffff;
+    background-image: url(../images/global.png);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:100% 350px;
+}
+.app .p-box {
+    width:100%;
+    height:653.33px;
+    margin-top: 30px;
+}
+.p-titlebox {
+    width:100%;
+    height:119.33px;
+}
+.p-titlebox .p-title {
+    font-size: 38px;
+    text-align: center;
+    line-height: 67px;
+    color: #1f2329;
+}
+.p-subtitlebox {
+    width:100%;
+    height:24px;
+}
+.p-subtitlebox .p-subtitle {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color:darkgray;
+}
+.p-appbox {
+    width:100%;
+    height:258px;
+    padding-top: 130px;
+}
+.p-appbox .product-tile {
+    display: block;
+    text-decoration: none;
+    color:black;
+    width:90px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height:128px;
+    float: left;
+}
+.p-buttonbox {
+    width:100%;
+    height:102px;
+    text-align: center;
+}
+.p-buttonbox button{
+    width:136px;
+    height:54px;
+    line-height: 54px;
+    margin-top: 48px;
+    border-radius: 27px;
+    background-color:#3370ff;
+    outline: none;
+}
+.p-buttonbox span{
+    width:136px;
+    height:16px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.appimg {
+    width:80px;
+    height:80px;
+}
+/* 探索你感兴趣的职位 */
+.jobs {
+    width:100%;
+    height:1029.33px;
+}
+.jobs-content {
+    width:100%;
+    height:1029.33px;
+}
+.jobs-title-box {
+    width:100%;
+    height:75.33px;
+    line-height: 75.33px;
+    text-align: center;
+    position: relative;
+}
+.jobs-title-bg {
+    position: absolute;
+    top:0;
+    width:100%;
+    height:75.33px;
+    font-size: 35px;
+    font-weight:600;
+    color: rgb(245, 247, 244);
+    float: left;
+
+}
+.jobs-title {
+    position: absolute;
+    top:0;
+    width:100%;
+    height:75.33px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1f2329;
+    line-height: 75.33px;
+    float: left;
+    overflow: hidden;
+}
+.job-list {
+    width:100%;
+    height:388px;
+    margin-top:100px;
+    float: left;
+}
+.job-tile{
+    float: left;
+    width:216px;
+    height:388px;
+    margin-left: 65px;
+    text-align:center;
+    position:relative;
+}
+.job-tile-content {
+    position: absolute;
+    width:216px;
+    height:288px;
+    bottom:100px;
+}
+.job-tile a {
+    text-decoration: none;
+    color:#1f2329;
+    font-size: 24px;
+}
+.img-wrapper {
+    width:216px;
+    height:216px;
+    border-radius: 108px;
+    overflow: hidden;
+}
+.job-img{
+    float: right;
+    width:216px;
+    height:216px;
+    }
+.job-name {
+    float:right;
+    width:216px;
+    height:32px;
+}
+
+
+/* 字节范 */
+.bytestyle {
+    width:100%;
+    height:823.33px;
+}
+.bytestyle-block{
+    width:100%;
+    height:823.33px;
+    float: left;
+}
+.bytestyle-block-title {
+    width:100%;
+    height:173.33px;
+}
+.bytestyle-block-title .bytelife-title-box{
+    width:100%;
+    height:119.33px;
+    position:relative;
+}
+.bytestyle-title-bg {
+    width:964px;
+    height:66.67px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:10%;
+    font-size: 55px;
+    font-weight:600;
+    color: rgb(245, 247, 244);
+}
+.bytestyle-title {
+    width:964px;
+    height:40.67px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:10%;
+    font-size:30px;
+    font-weight:600;
+    color:black;
+}
+.bytestyle-title .animate {
+    font-size: 40px;
+    font-weight: 500;
+}
+.bytestyle-tile ul li {
+    list-style: none;
+}
+.bytestyle-block-title .bytestyle-subtitle-box{
+    width:100%;
+    height:24px;
+    position:relative;
+}
+.bytestyle-subtitle {
+    width:964px;
+    height:24px;
+    margin:auto;
+    position: absolute;
+    left:10%;
+    color: #606469;
+
+}
+.bytestyle-imgbox {
+    width:604.2px;
+    height:330.49px;
+    float: left;
+    margin-top: 50px;
+}
+.bytestyle-img {
+    width:604.2px;
+    height:330.49px;
+}
+.bytestyle-info {
+    float: right;
+}
+/* 字节生活1 */
+.bytelife1 {
+    width:100%;
+    height:594.67px;
+}
+.bytelife-title-box {
+    width:964px;
+    height:40.67px;
+    margin:66px auto;
+    position:relative;
+
+}
+.bytelife1-content {
+    margin:0 auto;
+    width:964px;
+    height:421px;
+}
+.bytelife-title-bg {
+    width:275.06px;
+    height:66.67px;
+    position: absolute;
+    top:20px;
+    left:0;
+    font-size: 45px;
+    font-weight:600;
+    color: rgb(245, 247, 244);
+}
+.bytelife-title {
+    width:964px;
+    height:40.67px;
+    position: absolute;
+    top:30px;
+    left:0;
+    font-size:30px;
+    font-weight:600;
+    color:black;
+}
+.bytelife1-info {
+    width:360px;
+    height:421px;
+    float:left;
+}
+.bytelife1-info-title {
+    width:360px;
+    height:113px;
+    border-bottom: 1px solid #b7bbbb;
+}
+.bytelife1-title-box{
+    width:100%;
+    height:119.33px;
+    position:relative;
+}
+.bytelife1-title-bg {
+    width:135.37px;
+    height:130px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:0;
+    font-size: 100px;
+    font-weight:600;
+    color: rgb(240, 245, 237);
+}
+.bytelife1-title {
+    width:360px;
+    height:72px;
+    margin:auto;
+    position: absolute;
+    bottom:40px;
+    left:0;
+    font-size:27px;
+    font-weight:540;
+    color:black;
+}
+.bytelife1-info ul {
+    width:360px;
+    height:276px;
+    margin-top: 30px;
+}
+.bytelife1-info ul li {
+    list-style: none;
+    width:360px;
+    }
+.bytelife1-info ul :nth-child(2n+1) div {
+    height:24px;
+    font-size: 22px;
+    font-weight: 500;
+    width:360px;
+    margin-top: 20px;
+}
+.bytelife1-info ul :nth-child(2n) div{
+    font-size: 14px;
+    width:360px;
+    height:44px;
+    color:#646a73;
+    margin-top: 10px;
+}
+.img-wrapper {
+    width:604px;
+    height:345.58px;
+    float: right;
+}
+.bytelife1-img {
+    width:604px;
+    height:345.58px;
+}
+
+/* 字节生活2 */
+.bytelife2 {
+    width:100%;
+    height:433px;
+}
+.bytelife2-content {
+    width:964px;
+    height:353px;
+    margin:0 auto;
+}
+.bytelife2-imgbox {
+    width:501px;
+    height:286.65px;
+    float: left;
+}
+.bytelife2-img {
+    width:501px;
+    height:286.65px;
+}
+.bytelife2-info {
+    width:463px;
+    height:353px;
+    float: left;
+}
+.bytelife2-info-title {
+    width:360px;
+    height:100px;
+    float: right;
+    border-bottom: 1px solid #b7bbbb;
+}
+.bytelife2-title-box {
+    width:360px;
+    height:72px;
+    position:relative;
+}
+.bytelife2-title-bg {
+    width:135.37px;
+    height:130px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:0;
+    font-size: 100px;
+    font-weight:600;
+    color: rgb(240, 245, 237);
+}
+.bytelife2-title {
+    width:360px;
+    height:72px;
+    margin:auto;
+    position: absolute;
+    bottom:40px;
+    left:0;
+    font-size:27px;
+    font-weight:540;
+    color:black;
+}
+.bytelife2-info ul{
+    width:360px;
+    height:208px;
+    float: right;
+}
+.bytelife2-info ul li {
+    list-style: none;
+    color:#646a73;
+    font-size: 14px;
+    margin:20px auto;
+}
+.bytelife2-info ul :nth-child(1) div {
+width:360px;
+height:66px;
+}
+.bytelife2-info ul :nth-child(2) div {
+    width:360px;
+    height:110px;
+    }
+/* 字节生活3*/
+.bytelife3 {
+    width:100%;
+    height:443px;
+}
+.bytelife3-content {
+    width:964px;
+    height:443px;
+    margin:0 auto;
+}
+.bytelife3-info {
+    width:360px;
+    height:443px;
+    float: left;
+}
+
+.bytelife3-info-title {
+    width:360px;
+    height:100px;
+    float: right;
+    border-bottom: 1px solid #b7bbbb;
+}
+.bytelife3-title-box {
+    width:360px;
+    height:72px;
+    position:relative;
+}
+.bytelife3-title-bg {
+    width:135.37px;
+    height:130px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:0;
+    font-size: 100px;
+    font-weight:600;
+    color: rgb(240, 245, 237);
+}
+.bytelife3-title {
+    width:360px;
+    height:72px;
+    margin:auto;
+    position: absolute;
+    bottom:40px;
+    left:0;
+    font-size:27px;
+    font-weight:540;
+    color:black;
+}
+.bytelife3-info ul {
+    width:360px;
+    height:298px;
+    margin-top: 30px;
+}
+.bytelife3-info ul li {
+    list-style: none;
+    width:360px;
+    float: left;
+    }
+.bytelife3-info ul :nth-child(2n+1) div {
+    width:360px;
+    height:24px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bytelife3-info ul :nth-child(2n) div{
+    font-size: 14px;
+    width:360px;
+    color:#646a73;
+    margin-top: 10px;
+}
+.bytelife3-imgbox{
+    width:604px;
+    height:345.58px;
+    float: left;
+}
+.bytelife3-img {
+    width:604px;
+    height:345.58px;
+}
+/* 字节生活4 */
+.bytelife4 {
+    width:100%;
+    height:391px;
+}
+.bytelife4-content {
+    width:964px;
+    height:311px;
+    margin:0 auto;
+}
+.bytelife4-imgbox {
+    width:501px;
+    height:286.65px;
+    float: left;
+}
+.bytelife4-img {
+    width:501px;
+    height:286.65px;
+}
+.bytelife4-info {
+    width:463px;
+    height:311px;
+    float: left;
+}
+.bytelife4-info-title {
+    width:360px;
+    height:100px;
+    float: right;
+    border-bottom: 1px solid #b7bbbb;
+}
+.bytelife4-title-box {
+    width:360px;
+    height:72px;
+    position:relative;
+}
+.bytelife4-title-bg {
+    width:135.37px;
+    height:130px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:0;
+    font-size: 100px;
+    font-weight:600;
+    color: rgb(240, 245, 237);
+}
+.bytelife4-title {
+    width:360px;
+    height:72px;
+    margin:auto;
+    position: absolute;
+    bottom:40px;
+    left:0;
+    font-size:27px;
+    font-weight:540;
+    color:black;
+}
+.bytelife4-info ul{
+    width:360px;
+    height:208px;
+    float: right;
+}
+.bytelife4-info ul li {
+    list-style: none;
+    color:#646a73;
+    font-size: 14px;
+    margin:20px auto;
+}
+.bytelife4-info ul :nth-child(2n+1) div {
+    width:360px;
+    height:24px;
+    font-size: 22px;
+    font-weight: 500;
+    color:black;
+    margin-top: 20px;
+}
+.bytelife4-info ul :nth-child(2n) div{
+    font-size: 14px;
+    width:360px;
+    color:#646a73;
+    margin-top: 10px;
+}
+/* 字节生活5a */
+.bytelife5a {
+    width:100%;
+    height:339.75px;
+}
+.bytelife5a-content {
+    width:964px;
+    height:339.75px;
+    margin:0 auto;
+}
+.bytelife5a-info {
+    width:360px;
+    height:333px;
+    float: left;
+}
+
+.bytelife5a-info-title {
+    width:360px;
+    height:113px;
+    float: right;
+    border-bottom: 1px solid #b7bbbb;
+}
+.bytelife5a-title-box {
+    width:360px;
+    height:72px;
+    position:relative;
+}
+.bytelife5a-title-bg {
+    width:135.37px;
+    height:130px;
+    margin:auto;
+    position: absolute;
+    bottom:10px;
+    left:0;
+    font-size: 100px;
+    font-weight:600;
+    color: rgb(240, 245, 237);
+}
+.bytelife5a-title {
+    width:360px;
+    height:72px;
+    margin:auto;
+    position: absolute;
+    bottom:40px;
+    left:0;
+    font-size:27px;
+    font-weight:540;
+    color:black;
+}
+.bytelife5a-info ul {
+    width:360px;
+    height:188px;
+    margin-top: 30px;
+}
+.bytelife5a-info ul li {
+    list-style: none;
+    width:360px;
+    float: left;
+    }
+.bytelife5a-info ul :nth-child(1) div {
+    width:360px;
+    height:24px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bytelife5a-info ul :nth-child(2) div{
+    font-size: 14px;
+    width:360px;
+    color:#646a73;
+    margin-top: 10px;
+}
+.bytelife5a-imgbox{
+    width:604px;
+    height:339.75px;
+    float: left;
+}
+.bytelife5a-img {
+    width:604px;
+    height:339.75px;
+}
+/* 字节生活5b */
+.bytelife5b {
+    width:100%;
+    height:198px;
+}
+.bytelife5b-content {
+    width:964px;
+    height:198px;
+    margin:0 auto;
+}
+.bytelife5b-info {
+    width:360px;
+    height:198px;
+    float: left;
+}
+
+.bytelife5b-info ul {
+    width:360px;
+    height:166px;
+}
+.bytelife5b-info ul li {
+    list-style: none;
+    width:360px;
+    float: left;
+    }
+.bytelife5b-info ul :nth-child(1) div {
+    width:360px;
+    height:24px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bytelife5b-info ul :nth-child(2) div{
+    font-size: 14px;
+    width:360px;
+    color:#646a73;
+    margin-top: 10px;
+}
+.bytelife5b-imgblock {
+    width:604;
+    height:164.7px;
+    margin-top: 30px;
+}
+.bytelife5b-imgbox{
+    width:289px;
+    height:164.7px;
+    float: left;
+    margin-right: 10px;
+}
+.bytelife5b-img {
+    width:289px;
+    height:164.7px;
+    float: left;
+    margin-right: 10px;
+}
+/* 员工故事 */
+.story {
+    width:100%;
+    height:841.33px;
+}
+.story-title-box {
+    width:100%;
+    height:152.33px;
+    line-height: 75.33px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+.story-title-bg {
+    position: absolute;
+    top:0;
+    width:100%;
+    height:66.67px;
+    font-size: 48px;
+    line-height: 67px;
+    font-weight:600;
+    color: #f0f3f5;
+    float: left;
+
+}
+.story-title {
+    position: absolute;
+    top:0;
+    width:100%;
+    height:40.67px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1f2329;
+    line-height: 75.33px;
+    float: left;
+}
+.storybox {
+    width:90%;
+    height:537px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.storycard {
+    display: block;
+    width:304px;
+    height:537px;
+    float: left;
+    margin:0 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.card-name {
+    width:264px;
+    height:36px;
+    margin-bottom: 8px;
+    line-height: 36px;
+    font-size: 22px;
+    color: #1f2329;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.card-title {
+    width:160px;
+    height:22px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 12px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #1f2329;
+}
+.card-description {
+    width:264px;
+    height:66px;
+    margin:0 auto;
+    text-align: left;
+    margin-bottom: 24px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #646a73;
+}
+.story-img{
+    width:216px;
+    height:216px;
+}
+/* 结尾 */
+.footer {
+    width:100%;
+    height:231px;
+    background: #1f2329;
+}
+.footer h2{
+    font-size: 14px;
+    line-height: 22px;
+    margin: 4px 0;
+    color: #d2d3d4;
+    font-weight: 200;
+}
+.footer h3 a {
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.bytedance-logo {
+    width:25%;
+    height:102px;
+}
+.foot1{
+    width:8%;
+    height:96px;
+}
+.foot2{
+    width:8%;
+    height:70px;
+}
+.foot3{
+    width:30%;
+    height:80px;
+}
+.footer-content {
+    height:96px;
+    float: left;
+    margin:40px 30px;
+    text-align: left;
+}
+.footer-border{
+    border-left: 0.7px solid  #d2d3d4;
+    text-align: center;
+}
+.media-icon img {
+    width:40px;
+    height:40px;
+}
