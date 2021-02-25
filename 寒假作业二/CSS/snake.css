@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.content{
+    width: 1010px;
+    height: 610px;
+    margin: auto;
+    margin-right: 300px;
+    position: relative;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    z-index: 2;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#begin {
+    background-color: rgb(130, 205, 240);
+    background-image: url(../imgs/start-game.png);
+    background-size: 150px 40px;
+    position:absolute;
+    top:300px;
+    right:60px;
+}
+#pause {
+    background-color: rgb(130, 205, 240);
+    background-image: url(../imgs/pause.png);
+    background-size: 95px 35px;
+    position:absolute;
+    top:380px;
+    right:60px;
+}
+button:focus {
+    border: 0 none;
+    outline: none;
+}
+/* snakeWrap */
+.snakeWrap{
+    width:1000px;
+    height:600px;
+    background:rgb(166, 203, 212);
+    border:5px solid #79a2f0;
+    position:relative;
+}
+.snakeWrap div {
+    width:20px;
+    height:20px;
+}
+.explain{
+    width:220px;
+    height:600px;
+    position:absolute;
+    top:0;
+    right:-230px;
+}
+.explain h3 {
+    color:#11adc9;
+}
+.explain p {
+    color:#16b8d4;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
